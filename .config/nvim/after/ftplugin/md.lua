@@ -1,0 +1,6 @@
+--  ctrl+shift+1 : heading 1
+--  ctrl+shift+2 : heading 2
+--  ctrl+shift+3 : heading 3
+--  ctrl+shift+4 : heading 4
+--  ctrl+shift+5 : heading 5
+--  ctrl+shift+6 : heading 6
