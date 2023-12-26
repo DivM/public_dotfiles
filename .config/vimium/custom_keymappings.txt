@@ -1,0 +1,13 @@
+# Insert your preferred key mappings here.
+map H previousTab
+map L nextTab
+unmap J
+unmap K
+unmap gF
+map gF LinkHints.activateModeToOpenInNewForegroundTab
+unmap $
+map $ goForward
+unmap ^
+map ^ goBack
+map ;; visitPreviousTab
+map D duplicateTab
