@@ -32,6 +32,28 @@ nnoremap <leader>e :action Run<CR>
 nnoremap <leader>r :action RenameElement<CR>
 nnoremap <leader>R :action Refactorings.QuickListPopupAction<CR>
 
+set relativenumber
+set number
+
+set hlsearch
+nnoremap <ESC> :nohlsearch<CR>
+set incsearch
+
+set ignorecase
+set smartcase
+
+" ideaVim Plugins
+" Ref <https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins> for all supported plugins
+Plug 'tpope/vim-commentary'
+
+Plug 'machakann/vim-highlightedyank'
+let g:highlightedyank_highlight_duration = "200"
+
+Plug 'tpope/vim-surround'
+
+Plug 'vim-scripts/ReplaceWithRegister'
+
+
 " :action ContextRun<CR>
 " :action RunClass<CR>
 " :action ChooseRunConfiguration<CR>

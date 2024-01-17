@@ -1,0 +1,35 @@
+import = ["/Users/kmbl310634/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+size = 15
+
+[font.bold]
+family = "MesloLGS Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "MesloLGS Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "MesloLGS Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGS Nerd Font"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+decorations = "buttonless"
+opacity = 0.95
+
+[window.padding]
+x = 5
+y = 5
