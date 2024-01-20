@@ -6,7 +6,7 @@ if [ "$TERM_PROGRAM" = tmux ]; then
     PATH=""
     source /etc/zprofile
     # else
-        # echo 'Not in tmux'
+    #     echo 'Not in tmux'
 fi
 
 # # Adding this so that $PATH is set properly inside the TMUX session
@@ -22,13 +22,13 @@ touch $HOME/.config/zsh/zsh_history_file
 HISTFILE=$HOME/.config/zsh/zsh_history_file
 HISTSIZE=100000
 SAVEHIST=100000
-setopt HIST_EXPIRE_DUPS_FIRST 
+setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_IGNORE_DUPS
 
 # Custom Aliases
 source "$HOME/Personal/public_dotfiles/.config/scripts/mac_aliases.sh"
 
-# # Import zsh Plugins:
+# Import zsh Plugins:
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-you-should-use/you-should-use.plugin.zsh
@@ -54,7 +54,7 @@ source "$HOME/.config/ccm/azure_PAC_setter.sh"
 # # Configure zsh-z
 # touch /Users/dkm/.config/zsh/z_data
 # _Z_DATA='/Users/dkm/.config/zsh/z_data'
-#
+
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
