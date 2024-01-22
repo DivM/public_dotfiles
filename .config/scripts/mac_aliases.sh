@@ -51,7 +51,17 @@ alias gls='git log --decorate=short'
 alias glsa='git log --decorate=short --all --graph'
 alias glf='git log --pretty=fuller'
 alias glfa='git log --pretty=fuller --all --graph'
-alias gstat='git status'
+
+alias gs='git status'
+
+alias gf='git fetch --all'
+
+alias gq='git stash -u'
+alias gql='git stash list'
+alias gqp='git stash pop'
+alias gqs='git stash show'
+alias gqd='git stash drop'
+
 alias lc="wc -l"
 
 alias tmux-sessionizer="source ~/Documents/githubRepos/dotfiles/scripts/mac/tmux_sessionizer.sh"
